@@ -1,0 +1,16 @@
+### List all bills
+GET http://localhost:3000/bills
+
+### create a new bill
+POST http://localhost:3000/bills
+Content-Type: application/json
+
+{
+    "content": {
+        "concept": "Tennis",
+        "amount": "2000"
+    }
+}
+
+### get a bill
+GET http://localhost:3000/bills/291
